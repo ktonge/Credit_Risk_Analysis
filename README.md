@@ -6,6 +6,7 @@ This week's challenge was focused on evaluating credit card risk using supervise
 ### Oversampling 
 #### Naive Random Oversampling
 |   | Predicted False | Predicted True |
+| ------------- | ------------- |------------- |
 | Actually False | 56 | 31 |
 | Actually True | 5329 | 11789 |
 
@@ -16,7 +17,8 @@ This week's challenge was focused on evaluating credit card risk using supervise
 !(classificationreport1.png)
 
 #### SMOTE Oversampling  
-|   | Predicted False | Predicted True |
+|  | Predicted False | Predicted True |
+| ------------- | ------------- |------------- |
 | Actually False | 53 | 34 |
 | Actually True | 6129 | 10989 |
 
@@ -28,6 +30,7 @@ This week's challenge was focused on evaluating credit card risk using supervise
 
 ### Undersampling - Cluster Centroids 
 |   | Predicted False | Predicted True |
+| ------------- | ------------- |------------- |
 | Actually False | 51 | 36 |
 | Actually True | 9683 | 7495 |
 
@@ -39,6 +42,7 @@ This week's challenge was focused on evaluating credit card risk using supervise
 
 ### Combination (Over and Under) Sampling - SMOTEENN 
 |   | Predicted False | Predicted True |
+| ------------- | ------------- |------------- |
 | Actually False | 61 | 26 |
 | Actually True | 6802 | 10316 |
 
