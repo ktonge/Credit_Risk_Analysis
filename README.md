@@ -1,6 +1,8 @@
 # Credit_Risk_Analysis
 ## Overview
-This week's challenge was focused on evaluating credit card risk using supervised machine learning.  We used both oversampling and undersampling techniques, including RandomOverSampler, SMOTE, and Cluster Centroids.  We also used a combination of the two with SMOTEEN.  Our last two, BalancedRandomForestClassifier and EasyEnsembleClassifier, reduced bias.  
+This week's challenge was focused on evaluating credit card risk using supervised machine learning.  We were instructed to use both oversampling and undersampling techniques, including RandomOverSampler, SMOTE, and Cluster Centroids.  We also used a combination of the two with SMOTEEN.  Our last two models, BalancedRandomForestClassifier and EasyEnsembleClassifier, reduced bias.  
+
+Overall the goal was for me to determine which model worked best for the provided dataset. After running all of the models, I received the results below.  
 
 ## Results 
 ### Oversampling 
@@ -52,5 +54,31 @@ This week's challenge was focused on evaluating credit card risk using supervise
 
 ![classificationreport4](classificationreport4.png)
 
-### 
+### Ensemble Learners
+#### Balanced Random Forest Classifier 
+|   | Predicted False | Predicted True |
+| ------------- | ------------- |------------- |
+| Actually False | 59 | 42 |
+| Actually True | 2135 | 14696 |
+
+* Accuracy: 72%
+* Precision: 99%
+* Recall: 87% 
+
+![classificationreport5](classificationreport5.png)
+
+#### Easy Ensemble AdaBoost Classifier 
+|   | Predicted False | Predicted True |
+| ------------- | ------------- |------------- |
+| Actually False | 93 | 8 |
+| Actually True | 983 | 16121 |
+
+* Accuracy: 93%
+* Precision: 99%
+* Recall: 87% 
+
+![classificationreport6](classificationreport6.png)
+
+
 ## Summary  
+Between the models, all of them had a 99% accuracy rating.  The ensemble learning methods were above any of the over/under/combosampling on both accuracy and recall.  The best model for this dataset was definitely the EasyEnsembleClassifier, as it had the highest overall cobmination of accuracy and precision of all of the models, and best fits the credit risk dataset provided.  
