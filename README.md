@@ -14,7 +14,7 @@ This week's challenge was focused on evaluating credit card risk using supervise
 * Precision: 99%
 * Recall: 69%
 
-![classificationreport1](docs/classificationreport1.png)
+![classificationreport1](classificationreport1.png)
 
 #### SMOTE Oversampling  
 |  | Predicted False | Predicted True |
@@ -26,7 +26,7 @@ This week's challenge was focused on evaluating credit card risk using supervise
 * Precision: 99%
 * Recall: 64% 
 
-![classificationreport2](docs/classificationreport2.png)
+![classificationreport2](classificationreport2.png)
 
 ### Undersampling - Cluster Centroids 
 |   | Predicted False | Predicted True |
@@ -38,7 +38,7 @@ This week's challenge was focused on evaluating credit card risk using supervise
 * Precision: 99%
 * Recall: 44% 
 
-![classificationreport3](docs/classificationreport3.png)
+![classificationreport3](classificationreport3.png)
 
 ### Combination (Over and Under) Sampling - SMOTEENN 
 |   | Predicted False | Predicted True |
@@ -50,7 +50,7 @@ This week's challenge was focused on evaluating credit card risk using supervise
 * Precision: 99%
 * Recall: 60% 
 
-![classificationreport4](docs/classificationreport4.png)
+![classificationreport4](classificationreport4.png)
 
 ### 
 ## Summary  
